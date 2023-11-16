@@ -3,4 +3,4 @@
 # 	url = https://github.com/nianticlabs/monodepth2.git
 [submodule "manydepth"]
 	path = manydepth
-	url = https://github.com/nianticlabs/manydepth.git
+	url = git@github.com:egol2/manydepth.git
