@@ -5,4 +5,5 @@ python test_simple.py --image_path assets/render_001.png --model_name mono+stere
 2. Add enviroment.yml to Anaconda
 3. pip unistall numpy
 4. pip install numpy=1.19.5
-5. python -m manydepth.test_simple --target_image_path assets/test_sequence_target.jpg --source_image_path assets/test_sequence_source.jpg --intrinsics_json_path assets/test_sequence_intrinsics.json --model_path KITTI_MR
+5. Download the KITTI_MR model and place it in the manydepth directory: [KITTI_MR.zip](https://storage.googleapis.com/niantic-lon-static/research/manydepth/models/KITTI_MR.zip)
+6. python -m manydepth.test_simple --target_image_path assets/test_sequence_target.jpg --source_image_path assets/test_sequence_source.jpg --intrinsics_json_path assets/test_sequence_intrinsics.json --model_path KITTI_MR
