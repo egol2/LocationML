@@ -4,3 +4,4 @@
 [submodule "manydepth"]
 	path = manydepth
 	url = git@github.com:egol2/manydepth.git
+	branch = master
